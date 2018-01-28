@@ -2,7 +2,7 @@ FROM frolvlad/alpine-scala:2.12
 
 MAINTAINER tuxmonteiro
 
-ARG SBT_VERSION=0.13.16
+ARG SBT_VERSION=1.1.0
 
 ENV SCALA_HOME=/usr/share/scala \
     SBT_VERSION=$SBT_VERSION
